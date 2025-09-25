@@ -30,7 +30,6 @@ ul {
 body {
 	font-family: var(--first-font);
 	box-sizing: border-box;
-	
 }
 
 .container {
@@ -153,9 +152,9 @@ body {
 }
 
 .service-card-icon {
-	padding-top: 3px;
 	width: 37px;
 	height: 37px;
+	flex-shrink: 0;
 }
 
 /* A B O U T */
