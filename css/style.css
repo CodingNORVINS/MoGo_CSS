@@ -128,7 +128,7 @@ body {
 }
 
 .service-item {
-	flex-basis: calc((100% - 380px) / 3);
+	flex-basis: calc((100% - 140px) / 3);
 }
 
 .service-card {
