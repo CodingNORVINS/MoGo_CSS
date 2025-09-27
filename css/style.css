@@ -29,7 +29,6 @@ ul {
 
 body {
 	font-family: var(--first-font);
-	box-sizing: border-box;
 }
 
 .container {
@@ -40,7 +39,6 @@ body {
 /* H E A D E R */
 .header {
 	padding-top: 17px;
-	padding-bottom: 68px;
 }
 
 .header-container {
@@ -74,14 +72,12 @@ body {
 
 /* S E R V I C E S */
 .service {
-	padding: 0 0 100px;
+	padding-top: 68px;
 }
 
 .service-container {
 	display: flex;
 	flex-direction: column;
-	margin: 0 auto;
-	flex-wrap: wrap;
 }
 
 .service-title {
@@ -128,7 +124,8 @@ body {
 }
 
 .service-item {
-	flex-basis: calc((100% - 380px) / 3);
+	/* flex-basis: calc((100% - 380px) / 3); */
+	max-width: 330px;
 }
 
 .service-card {
@@ -148,7 +145,6 @@ body {
 	font-size: 15px;
 	line-height: 22px;
 	padding: 20px 0 0 19px;
-	width: 310px;
 }
 
 .service-card-icon {
@@ -167,6 +163,7 @@ body {
 	color: var(--titles-color);
 	font-family: var(--third-font);
 	font-size: 24px;
+	padding-top: 100px;
 }
 
 .about-title {
