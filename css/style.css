@@ -40,7 +40,6 @@ body {
 	color: var(--titles-color);
 	font-family: var(--third-font);
 	font-size: 24px;
-	padding-bottom: 20px;
 	text-align: center;
 }
 
@@ -113,6 +112,9 @@ body {
 	gap: 20px;
 	display: flex;
 }
+.service-title {
+	padding-top: 20px;
+}
 .service-wrapper-title {
 	font-family: var(--first-font);
 	padding-bottom: 20px;
@@ -181,6 +183,9 @@ body {
 
 .about-article-overlay {
 	display: none;
+	position: absolute;
+	top: -10px;
+	left: -10px;
 	width: 380px;
 	height: 470px;
 	background-image: linear-gradient(
@@ -188,8 +193,7 @@ body {
 		rgba(239, 139, 138, 0.8),
 		rgba(229, 207, 130, 0.8)
 	);
-	position: absolute;
-	top: 0;
+	z-index: 2;
 }
 
 .about-article:hover .about-article-overlay {
@@ -253,4 +257,7 @@ body {
 /* I C O N S */
 use {
 	fill: var(--navigation-text-color);
+}
+use:hover {
+	fill: var(--hover-text-color);
 }
