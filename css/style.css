@@ -118,9 +118,11 @@ body {
 	padding-top: 20px;
 }
 .service-wrapper-title {
-	font-family: var(--first-font);
 	padding-bottom: 20px;
 	color: var(--titles-color);
+	font-family: var(--first-font);
+	color: var(--titles-color);
+	line-height: auto;
 	font-size: 14px !important;
 	text-transform: uppercase;
 }
